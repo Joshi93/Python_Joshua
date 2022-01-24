@@ -1,0 +1,31 @@
+Python has the following data types built-in by default, in these categories:
+
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+
+Comment:
+
+use # in Python to comment a single line
+
+# can be used in consecutive lines
+
+Triple quoted string literals
+
+''' 
+Some random
+set of words jsut for the sake of 
+learning python! '''
+
+Docstrings
+Python documentation string or commonly known as docstring, is a string literal, and it is used in the class, module, function, or method definition.
+
+def square(a):
+    '''Returned argument a is squared.'''
+    return a**a
+print (square.__doc__)
+Returned argument a is squared.
