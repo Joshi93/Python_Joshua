@@ -1,0 +1,27 @@
+write a program to calculate perimeter of the circle with radius 10.2
+Pi = 3.14
+Radius = 10.2
+Perimeter = float (2 * Pi * Radius)
+print ("Perimeter of the circle is "Perimeter)
+
+write a program to calculate area of circle with radius (float) (collect using input function)
+Pi = 3.14
+Radius = float (input ("Please enter the radius: "))
+Area = Pi * Radius**2
+print ("Area of circle is ",Area)
+
+write a program to calculate perimeter of the cricle with radius (float) (collect it through input function)
+Pi = 3.14
+Radius = float (input ("Please enter the radius: "))
+Perimeter = 2 * Pi * Radius
+print (f"Perimeter of the cricle is {Perimeter}")
+
+Collect radius and height from user,
+calculate Area of cone (area of cone = 0.33 * pi * r * r * h) (int)
+
+radius = float (input ("Enter the radius value: "))
+height = float (input ("Enter the height value: "))
+
+Area_of_cone = float (0.33 * 3.14 * (radius**2) * height)
+
+print ("Area of the cone is : ", int(Area_of_cone))
